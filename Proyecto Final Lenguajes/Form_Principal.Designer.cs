@@ -30,6 +30,7 @@ namespace Proyecto_Final_Lenguajes
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // button1
@@ -41,11 +42,20 @@ namespace Proyecto_Final_Lenguajes
             this.button1.Text = "Cambio";
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Blue;
+            this.panel1.Location = new System.Drawing.Point(196, 186);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(200, 100);
+            this.panel1.TabIndex = 1;
+            // 
             // Form_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(858, 603);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form_Principal";
@@ -57,6 +67,7 @@ namespace Proyecto_Final_Lenguajes
         #endregion
 
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 
