@@ -16,5 +16,7 @@ namespace Proyecto_Final_Lenguajes
         {
             InitializeComponent();
         }
+
+     
     }
 }
