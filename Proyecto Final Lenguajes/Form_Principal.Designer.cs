@@ -29,13 +29,23 @@ namespace Proyecto_Final_Lenguajes
         /// </summary>
         private void InitializeComponent()
         {
+            this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Red;
+            this.panel1.Location = new System.Drawing.Point(295, 213);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(200, 100);
+            this.panel1.TabIndex = 0;
             // 
             // Form_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(858, 603);
+            this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form_Principal";
             this.Text = "Menu Principal";
@@ -44,6 +54,8 @@ namespace Proyecto_Final_Lenguajes
         }
 
         #endregion
+
+        private System.Windows.Forms.Panel panel1;
     }
 }
 
